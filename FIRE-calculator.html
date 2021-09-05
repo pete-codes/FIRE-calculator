@@ -3,7 +3,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="sd.css">
+  <link rel="stylesheet" href="fire-calculator.css">
   <link rel="stylesheet" href="idealmeta.js">
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <script src="idealmeta.js" charset="utf-8"></script>
@@ -25,7 +25,7 @@
   <h2> <i> Not financial advice </i></h2>
 
 <br> 
-<input type="number" class="inputBox" id="revenue" placeholder="How much do you want to live on per year?">
+<input type="number" class="inputBox" id="amount" placeholder="How much do you want to live on per year?">
 
 <!-- <input type="text" class="inputBox" id="currency" placeholder="What is your currency symbol?"> -->
 
@@ -41,7 +41,7 @@
 
 
 
-<button id="titleButton" onclick="findRevenueHour()"> <h2> Find out 🤔 </h2> </button>
+<button id="titleButton" onclick="findRetirementAmount()"> <h2> Find out 🤔 </h2> </button>
 
 <p> This assumes your savings grow by 7% a year with inflation equalling 3% leaving 4% growth per year - read the <a href="https://www.mrmoneymustache.com/2012/05/29/how-much-do-i-need-for-retirement/"> Money Mustache blog post for more info </a> </p>
 
@@ -57,13 +57,13 @@
 <script>
 
 
-function findRevenueHour() {
+function findRetirementAmount() {
 
-  revenue = document.getElementById("revenue").value;
+  amount = document.getElementById("amount").value;
   currency = document.getElementById("currency").value;
+  
 
-
-  document.getElementById("explanation").innerHTML = "You need " + Math.round(revenue * 25) + " " + currency + "s" + " in order to retire";
+  document.getElementById("explanation").innerHTML = "You need " + Math.round(amount * 25) + " " + currency + "s" + " in order to retire";
 
 };
 

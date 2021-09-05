@@ -1,0 +1,121 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body {
+
+  text-align: center;
+  font-family: lato, sans-serif;
+  cursor: text;
+  background-color: black;
+  color:#00ad9f;
+}
+
+h2 {
+  vertical-align: middle;
+  text-align: center;
+  margin:0 !important;
+  
+}
+
+
+
+#headline {
+  border: solid 5px #00ad9f ;
+  padding:10px;
+  border-radius: 5px;
+
+}
+h1{
+  padding-bottom: 10px;
+    padding-top: 10px;
+    color:#00ad9f;
+    margin: 50px;
+}
+
+#textInput
+{
+
+    font-size:18pt;
+    width:600px;
+    border: #00ad9f 1px solid;
+}
+
+.inputBox {
+  height: 50px;
+  width: 600px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+
+}
+button {
+  background-color:#00ad9f;
+  color:white;
+  font-weight: 600;
+  height:40px;
+  width: 200px;
+  padding-bottom: 0px;
+  cursor:pointer;
+  text-align: center;
+  margin-top:10px;
+  a#cta-hero-getstartedforfree.button {
+  -moz-osx-font-smoothing: grayscale;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #00ad9f;
+  background-image: none;
+  background-origin: padding-box;
+    background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto;
+  border: 0 none currentcolor;
+  border-image: none 100% 1 0 stretch;
+  border-radius: 4px;
+  box-shadow: rgba(255,255,255,.1) 0 0 0 1px,rgba(14,30,37,.12) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: .9rem;
+  font-weight: 500;
+  line-height: 1.618em;
+  margin:0;
+  opacity: 1;
+  outline: 0 none currentcolor;
+  padding: .382em 1em;
+  position: relative;
+  text-align: center;
+  text-decoration: none currentcolor solid;
+  transition-delay: 0s;
+  transition-duration: .15s;
+  transition-property: all;
+  transition-timing-function: ease;
+  vertical-align: middle;
+  z-index: 1;
+
+}
+
+
+
+h3 {
+  float:right;
+  border-left:1px solid black;
+    cursor:pointer;
+}
+
+a:link {
+  color:black;
+}
+
+a* {
+  color:black;
+}
